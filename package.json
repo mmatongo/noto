@@ -1,0 +1,28 @@
+{
+  "name": "noto",
+  "version": "0.0.1",
+  "description": "A simple CLI to generate a QR code from the terminal using the nano.to API",
+  "main": "./bin/noto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmatongo/noto.git"
+  },
+  "keywords": [],
+  "author": "Daniel M. Matongo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmatongo/noto/issues"
+  },
+  "homepage": "https://github.com/mmatongo/noto#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "yargs": "^17.2.1"
+  },
+  "bin": {
+    "noto": "./bin/noto.js"
+  }
+}
