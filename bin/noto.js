@@ -26,7 +26,7 @@ const generateQRCode = (username, amount) => {
         process.exit(1);
     }
 
-    request(nameCheck, (err, res, body) => {
+    request(nameCheck, (err, _res, body) => {
         if (err) {
             console.log(err);
             return;
