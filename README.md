@@ -24,6 +24,15 @@ e.g.
 ![2](./img/2.png)
 
 
+## Installation
+
+Noto requires the following dependencies:
+Node.js and npm or yarn.
+
+```sh
+$ npm install -g noto-cli
+```
+
 TODO:
 - [] Add check for unleased uusername
 - [] Add check for valid ammount
